@@ -1,0 +1,45 @@
+.adoptme{
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    color: orange;
+}
+.dogimg{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+}
+.dog{
+    width: 310px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 0 0px 10px;
+    box-shadow: 0px 4px 8px;
+    transition: 2s;
+    
+}
+.cat{
+    width: 310px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 0 0px 10px;
+    box-shadow: 0px 4px 8px;
+    transition: 2s;
+}
+.catimg{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+}
+.dog:hover{
+    box-shadow: 2px 8px 16px ;
+}
+.cat:hover{
+    box-shadow: 2px 8px 16px ;
+}
+@media(max-width:400px){
+    .adoptme{
+        flex-wrap: wrap;
+    }
+}
