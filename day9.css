@@ -1,0 +1,51 @@
+#outerline{
+    height: 400px;
+    width: 800px;
+    border: 2px solid rgb(10, 2, 2);
+    background-color: green;
+    display: grid;
+    grid-template-columns: 400px 100px 100px;
+    grid-template-rows: 150px 100px 100px;
+    grid-gap: 10px 20px;
+    /* justify horizontal kaam karta hai aur align vertically  aur dono ki jagya PLACE item bhi use kar sakta hai*/
+    justify-items: center;
+    align-items: center;
+    
+}
+.innerid{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    border: 2px solid black;
+}
+.innerid1{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    grid-column: 1/4;
+    border: 2px solid black;
+    justify-self: end;
+}
+.innerid2{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    grid-row: 2/span 2;
+    border: 2px solid black;
+    align-self: start;
+}
+.animation{
+    height: 50px;
+    width: 70px;
+    background-color: antiquewhite;
+    animation-name: coloranimation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes coloranimation{
+    from{background-color: violet;}
+    to{background-color: yellow;}
+}

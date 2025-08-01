@@ -1,0 +1,22 @@
+/* bhai color or background color ka bara mei ha */
+p{
+    color: blue;
+    background-color: black;
+}
+/* color system form here */
+body{
+    background-color: rgb(50,20,50);
+}
+/* ques practise */
+H1{
+    color: #ffa511;
+    font-family: League spartan;
+    text-align: center ;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}
+ 
