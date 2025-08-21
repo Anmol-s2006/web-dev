@@ -5,6 +5,7 @@
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    /* by default flex-direction row hota hai */
     justify-content: space-evenly; 
     align-items: center;
 }
@@ -17,3 +18,5 @@
     border-radius: 10px;
     text-align: center;
 }
+/* css tricks for flex box and grid content */
+/* flex box cheat sheet padhi hai tera paas uska revision kar lena */

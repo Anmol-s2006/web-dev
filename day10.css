@@ -4,8 +4,8 @@
     font-family: "poppins", sans-serif;
 }
 .mainbox{
-    background-color: wheat;
-    background: url(anmol.png);
+    background-color: black;
+    /* background: url(anmol.png); */
     background-size: cover;
     height: 100vh;
 }
